@@ -94,6 +94,8 @@ do
 	local stringStartWithoutQuotes = "^[ \t\n]*" --4
 
 	function module.parse(str,config)
+		str = str:gsub("\r\n", "\n")
+
 		local keyName
 		local keyToggle = false
 		local global = {}
