@@ -24,11 +24,11 @@ print(data.a.key) -- prints 'value'
 
 ## stringify(data:table,indent:string?,disableNewline:boolean?)
 
-### pram1 data:table
+### param1 data:table
 
 lua table structure which should converted into VDF format
 
-### pram2 indent:string? (default: "  ")
+### param2 indent:string? (default: "  ")
 
 An indent-based string that is repeated based on its depth.
 If you don't want to indent, provide a false
